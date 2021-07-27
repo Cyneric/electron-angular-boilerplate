@@ -5,7 +5,7 @@
   "description": "template for electron applications with angular",
   "author": "Christian Blank <christianblank91@gmail.com>",
   "scripts": {
-    "start:browser": "ng serve",
+    "start:browser": "ng serve --open",
     "start:electron": "ng build --base-href ./ && electron .",
     "make:electron": "electron-forge make"
   },
