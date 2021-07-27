@@ -1,0 +1,11 @@
+.toolbar {
+  -webkit-app-region: drag;
+
+  a {
+    -webkit-app-region: no-drag;
+  }
+
+  .window-buttons {
+    -webkit-app-region: no-drag;
+  }
+}
